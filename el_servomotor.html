@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>El servomotor | Ventilador automático </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Varios" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-261"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Ventilador automático</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Ventilador automático</a></li>
+   <li><a href="misin.html" class="no-ch">Misión</a></li>
+   <li><a href="conocimiento_previo.html" class="no-ch">Conocimiento previo</a></li>
+   <li><a href="vocabulario.html" class="no-ch">Vocabulario</a></li>
+   <li class="current-page-parent"><a href="presentacin.html" class="current-page-parent daddy">Presentación</a>
+   <ul>
+      <li><a href="conductores_elctricos.html" class="daddy">Conductores eléctricos</a>
+      <ul class="other-section">
+         <li><a href="ejercicio.html" class="no-ch">Ejercicio</a></li>
+      </ul>
+      </li>
+      <li id="active"><a href="el_servomotor.html" class="active daddy">El servomotor</a>
+      <ul>
+         <li><a href="conexin_electrnica.html" class="no-ch">Conexión electrónica</a></li>
+         <li><a href="programacin.html" class="no-ch">Programación</a></li>
+         <li><a href="ejercicio_1.html" class="no-ch">Ejercicio 1</a></li>
+         <li><a href="ejercicio_2.html" class="no-ch">Ejercicio 2</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="trabajo_grupal.html" class="daddy">Trabajo grupal</a>
+   <ul class="other-section">
+      <li><a href="estructuras.html" class="no-ch">Estructuras</a></li>
+      <li><a href="conexin_electrnica0.html" class="no-ch">Conexión electrónica</a></li>
+      <li><a href="programacin0.html" class="no-ch">Programación</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="ejercicio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="conexin_electrnica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">El servomotor</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id2419">
+<div class="iDevice emphasis0" >
+<div id="ta2419_1915_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="Pandillla_Robot.png" width="136" height="136" style="float: left; margin-right: 10px; margin-left: 10px;" alt="Rétor sobre un rueda y con brazos robotizados" title="Rétor en movimiento"></p>
+<p><span style="font-size: 14pt;">Vamos a aprender todo lo necesario para conseguir que nuestro robot se mueva gracias a un pequeño <strong>servomotor de rotación continua</strong>.</span></p></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_manipula" id="id2420">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_manipula.svg)"><h1 class="iDeviceTitle">1. El servomotor</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2420_1915_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Hemos aprendido que la placa micro:bit detecte luz o encienda LEDs de acuerdo a una programación realizada; sin embargo, ¿cómo te imaginas tu robot: estático o en movimiento? Seguramente has imaginado que se desplaza, se acerca o aleja de ti, mueve un brazo u otra parte...</p>
+<p>¿Cómo crees que conseguiremos que un robot se <strong>mueva</strong>?&nbsp;</p>
+<div class="exe-fx exe-tabs">
+<h2>El servomotor de rotación continúa</h2>
+<p style="text-align: left;"><img src="servo._unsplash.jpg" alt="Imagen que muestra un Micro servo motor" style="float: left; margin-right: 30px; margin-left: 30px;" title="Micro servo motor" width="160" height="146"></p>
+<ul>
+<li style="text-align: left;">Un motor servo de <span style="text-decoration: underline;"><strong>rotación contínua</strong></span>, a diferencia de otro tipo de motores,&nbsp; es capaz de controlar la dirección o sentido de giro así como la velocidad a la que gira.</li>
+</ul>
+<p>El servo cuenta con tres cables, dos son para alimentación y&nbsp;el tercero es para una señal de control.</p>
+<p>Podemos utilizar cables cocodrilo para conectar el servo a la micro:bit.&nbsp;Casi siempre el color del cableado es naranja = señal, rojo = 3V y marrón = tierra (GND)</p>
+<h2 style="text-align: left;">Baterías y porta baterías</h2>
+<p style="text-align: left;"><strong><img src="portapilas_con_AAA.jpg" alt="Imagen de los tipos de pilas con las que podemos cargar la placa de expansión para Micro:bit" title="Pilas para placa de expansión" style="float: left; margin: 20px 30px 20px 30px;" width="198" height="194">Normalmente&nbsp; la placa microbit suministra energía eléctrica para los componentes conectados a él; sin embargo, el servomotor requiere mayor energía por lo que utilizaremos un portapilas para 4 baterías de 1.5 voltios. Esto permitirá suministrar las suficiente energía para que el microbit pueda controlar sin problema el servomoto de rotación contínua.</strong></p>
+<p style="text-align: left;"><strong></strong></p>
+<p style="text-align: left;"><strong></strong></p>
+<p style="text-align: left;"><strong></strong></p>
+<p style="text-align: left;"><strong></strong></p>
+<p style="text-align: left;"><strong></strong></p>
+<p style="text-align: left;"><strong></strong></p>
+<h2 style="text-align: left;">Ejemplos</h2>
+<p>En la siguiente tabla se encuentra un par de ejemplos en donde se utilizan los servomotores.</p>
+<table border="1" style="width: 100%; height: 69px;">
+<tbody>
+<tr style="height: 23px;">
+<td style="width: 50%; text-align: center; height: 23px;"><span style="font-size: 14pt;"><strong>Nombre</strong></span></td>
+<td style="width: 50%; text-align: center; height: 23px;"><span style="font-size: 14pt;"><strong>Imagen</strong></span></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 50%; text-align: center; height: 23px;">Brazo robot</td>
+<td style="width: 50%; text-align: center; height: 23px;"><img src="brazo_robot.jpg" alt="" width="228" height="189"></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 50%; text-align: center; height: 23px;">Máquina CNC</td>
+<td style="width: 50%; text-align: center; height: 23px;"><img src="maquina_cnc.jpg" alt="" width="243" height="172"></td>
+</tr>
+</tbody>
+</table>
+</div></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="ejercicio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="conexin_electrnica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
