@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Programación | Ventilador automático </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Varios" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-267"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Ventilador automático</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Ventilador automático</a></li>
+   <li><a href="misin.html" class="no-ch">Misión</a></li>
+   <li><a href="conocimiento_previo.html" class="no-ch">Conocimiento previo</a></li>
+   <li><a href="vocabulario.html" class="no-ch">Vocabulario</a></li>
+   <li class="current-page-parent"><a href="presentacin.html" class="current-page-parent daddy">Presentación</a>
+   <ul>
+      <li><a href="conductores_elctricos.html" class="daddy">Conductores eléctricos</a>
+      <ul class="other-section">
+         <li><a href="ejercicio.html" class="no-ch">Ejercicio</a></li>
+      </ul>
+      </li>
+      <li class="current-page-parent"><a href="el_servomotor.html" class="current-page-parent daddy">El servomotor</a>
+      <ul>
+         <li><a href="conexin_electrnica.html" class="no-ch">Conexión electrónica</a></li>
+         <li id="active"><a href="programacin.html" class="active no-ch">Programación</a></li>
+         <li><a href="ejercicio_1.html" class="no-ch">Ejercicio 1</a></li>
+         <li><a href="ejercicio_2.html" class="no-ch">Ejercicio 2</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="trabajo_grupal.html" class="daddy">Trabajo grupal</a>
+   <ul class="other-section">
+      <li><a href="estructuras.html" class="no-ch">Estructuras</a></li>
+      <li><a href="conexin_electrnica0.html" class="no-ch">Conexión electrónica</a></li>
+      <li><a href="programacin0.html" class="no-ch">Programación</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="conexin_electrnica.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejercicio_1.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Programación</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id2421">
+<div class="iDevice emphasis0" >
+<div id="ta2421_1916_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En las siguientes pestañas aprenderás a cómo programarlo:</p>
+<div class="exe-fx exe-tabs">
+<h2>Agregar extensión</h2>
+<p><strong>Makecode</strong>, el entorno de programación de&nbsp;micro:bit&nbsp;tiene extensiones que amplían las posibilidades de conectar y programar distintos aparatos especiales a nuestra micro:bit</p>
+<p>Abre un nuevo proyecto en micro:bit y busca en las categorías la palabra&nbsp;extensiones. Se desplegarán muchas opciones, de entre todas ellas elige "<strong>servo</strong>" y en la siguiente imagen aparece la opción:</p>
+<p style="text-align: center;"><img src="Extension_servomotor.png" alt="" width="709" height="374"></p>
+<p>La extensión que nos interesa es la que está rodeada en rojo:&nbsp;servomotor.&nbsp;Sigue los siguientes pasos:</p>
+<p>Ahora, verás en la zona de los bloques del entorno de programación de Makecode una nueva categoría de bloques llamada&nbsp;Servos.<br><br></p>
+<h2>Bloques de programación</h2>
+<p>Para programar nuestro servomotor seguiremos los siguientes pasos:</p>
+<p>1. Abrir un <strong>nuevo proyecto</strong>. Nombrarlo y seleccionar idioma.</p>
+<p>2. Hacer clic en <strong>extensiones</strong> y seleccionar la de <strong>servo</strong>.</p>
+<p>3. Tendremos acceso a los bloques de esta categoría:</p>
+<p><img src="bloques_servo.png" alt="Imagen que muestra lo seis bloques de la categoría Servos" title="Bloques servos" style="float: left; margin-right: 30px; margin-left: 30px;" width="400" height="280"><strong>1. Set servo angle</strong>: Con este bloque podremos mover el ángulo a un valor deseado.</p>
+<p><strong>2. Continuous servo</strong>: Podremos controlar la velocidad de rotación continua siempre que&nbsp; el servo cuente con esta característica.</p>
+<p><strong>3. Stop servo:</strong> Detiene el motor servo e impide que éste siga girando.</p>
+<p><strong>4. Set servo stop on neutral: </strong>Nos ayudará a limitar la rotación del servo cuando éste llegue a 90 grados.</p>
+<p><strong>5.&nbsp;Set servo range: </strong>Este bloque nos permite indicar el rango de rotación del servo, es decir:&nbsp; del valor mínimo al máximo expresado en grados.</p>
+<p><strong>6. Set servo pulse to:</strong> Nos permitirá usar distintos tipos de motores y con anchos de pulsos diferentes.</p>
+<h2>Programa 1</h2>
+<p>Seguro que ya sabías que con Makecode contamos con un simulador, ¿verdad?, pues..., muy bien, es el momento de que pruebes esos bloques y veas cómo el simulador realiza todo lo que vayas programando. De esta forma, realiza un programa para que cuando se presione el botón A gire en un sentido con una velocidad de 30% el servomotor y cuando se presione el botón B gire en sentido contrario con la misma velocidad. Por último, si se presionan simultáneamente los botones A y B el servomotor se detendrá. Por cierto,&nbsp;coloca&nbsp;si no los tiene, alguno de los accesorios que trae el servomotor que parecen&nbsp;aspas de molino. En la siguiente imagen se muestra el programa para desarrollarlo en el makecode:</p>
+<p style="text-align: center;"><img src="program1_servomotor_(Personalizado).png" alt="" width="700" height="298"></p>
+<h2>Programa 2</h2>
+<p>Desarrolla el siguiente programa que se encuentra en la imagen inferior para que <strong>por siempre&nbsp;</strong>gire el servomoto en un sentido, espere unos 3 segundos, luego se detenga por 1 segundo y de empiece a girar en sentido opuesto por dos segundos.&nbsp;</p>
+<p style="text-align: center;"><img src="program2_servomotor_(Personalizado).png" alt="" width="375" height="383"></p>
+
+</div></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><p><span style="font-size: 14pt;">Los servomotores son dispositivos</span></p>
+<p><span style="font-size: 14pt;">muy utilizados en robótica.</span></p>
+<p><span style="font-size: 14pt;">Los servomotores se usan como:</span></p>
+<p><span style="font-size: 14pt;">-Humanoides.</span></p>
+<p><span style="font-size: 14pt;">-Brazos.</span></p>
+<p><span style="font-size: 14pt;">-Control de puertas.</span></p>
+<p><span style="font-size: 14pt;">-Y muchos más.</span></p>
+<p><span style="font-size: 14pt;">El servomotor se controla.</span></p>
+<p><span style="font-size: 14pt;">Un servomotor se coloca en cualquier posición.</span></p>
+<p><span style="font-size: 14pt;">Se mueve en semicírculo.</span></p>
+<p><span style="font-size: 14pt;">La posición va desde 0 a 180 grados.</span></p>
+<div class="exe-fx exe-tabs">
+<h2><span style="font-size: 14pt;">Conecta el servomotor</span></h2>
+<p><span style="font-size: 14pt;"><img src="placa_expansion_j.png" alt="Imagen que muestra la placa de expansión micro:bit" title="Conexión servo" style="float: left; margin-right: 10px; margin-left: 10px;" width="271" height="244"></span></p>
+<p><span style="font-size: 14pt;">El servomotor tiene tres cables:</span></p>
+<p><span style="font-size: 14pt;">- Dos cables de alimentación.</span></p>
+<p><span style="font-size: 14pt;">- Un cable para una señal de control.</span></p>
+<p><span style="font-size: 14pt;">Usa cables cocodrilo</span></p>
+<p><span style="font-size: 14pt;">para conectar el servo a la micro:bit.</span></p>
+<p><span style="font-size: 14pt;">Los pines sirven para crear circuitos</span></p>
+<p><span style="font-size: 14pt;">y conectar elementos externos.</span></p>
+<p><span style="font-size: 14pt;">tor.<img src="pins_recortado.png" alt="" style="float: right; margin-right: 10px; margin-left: 10px;" width="200" height="357">Los elementos externos pueden ser</span></p>
+<p><span style="font-size: 14pt;">- Timbres.</span></p>
+<p><span style="font-size: 14pt;">- Motores.</span></p>
+<p><span style="font-size: 14pt;">- Y muchos más.</span></p>
+<p><span style="font-size: 14pt;">Los pines están en la parte inferior de la micro:bit.</span></p>
+<p><span style="font-size: 14pt;">Son 25 tiras doradas.</span></p>
+<p><span style="font-size: 14pt;">Necesitas los pines para conectar el</span></p>
+<p><span style="font-size: 14pt;">el servomotor a la placa micro:bit.</span></p>
+<p><span style="font-size: 14pt;">Tú usas más los pines de tira ancha.</span></p>
+<p><span style="font-size: 14pt;">Los primeros tres pines son 0, 1 y 2.</span></p>
+<p><span style="font-size: 14pt;">Tú usas los pines para muchas cosas diferentes.</span></p>
+<p><span style="font-size: 14pt;">Los pines se usan para:</span></p>
+<p><span style="font-size: 14pt;">- Entradas.</span></p>
+<p><span style="font-size: 14pt;">- Salidas.</span></p>
+<p><span style="font-size: 14pt;">- Botones táctiles.</span></p>
+<p><span style="font-size: 14pt;">- Y muchas cosas más.</span></p>
+<p><span style="font-size: 14pt;">El pin 3V sirve de salida o entrada</span></p>
+<p><span style="font-size: 14pt;">de 3 voltios de potencia.</span></p>
+<p><span style="font-size: 14pt;">El pin Ground sirve de conexión a tierra</span></p>
+<p><span style="font-size: 14pt;">para cerrar un circuito.</span></p>
+<p><span style="font-size: 14pt;">Tú conectas desde Pin0, 3V y GND y controlas.</span></p>
+<p><span style="font-size: 14pt;">Para controlar envía la señal en Pin0.</span></p>
+<p><span style="font-size: 14pt;">El color del cable es:</span></p>
+<p><span style="font-size: 14pt;">- Naranja es de señal.</span></p>
+<p><span style="font-size: 14pt;">- Rojo es 3 voltios.</span></p>
+<p><span style="font-size: 14pt;">- Marrón es de tierra</span></p>
+<p><span style="font-size: 14pt;"> y se llama GND.</span></p>
+<p><span style="font-size: 14pt;"> GND son las siglas de Ground.</span></p>
+<h2><span style="font-size: 14pt;">Programas el servomotor</span></h2>
+<p><span style="font-size: 14pt;">Sigue estos pasos</span></p>
+<p><span style="font-size: 14pt;">para programar el servomotor:</span></p>
+<p><span style="font-size: 14pt;">1. Abrir un nuevo proyecto.</span></p>
+<p><span style="font-size: 14pt;"> Nombrar el proyecto y seleccionar idioma.</span></p>
+<p><span style="font-size: 14pt;">2. Hacer clic en extensiones</span></p>
+<p><span style="font-size: 14pt;"> y seleccionar la extensión de servo.</span></p>
+<p><span style="font-size: 14pt;">3. Acceder a los bloques</span></p>
+<p><span style="font-size: 14pt;"> de esta categoría:</span></p>
+<p><span style="font-size: 14pt;"><img src="bloques_servo.png" alt="Imagen que muestra lo seis bloques de la categoría Servos" title="Bloques servos" style="float: left; margin-right: 30px; margin-left: 30px;" width="400" height="280"><strong></strong></span></p>
+<p><span style="font-size: 14pt;">1. Set servo angle:</span></p>
+<p><span style="font-size: 14pt;">Mueves el ángulo a un valor deseado.</span></p>
+<p><span style="font-size: 14pt;">2. Continuous servo:</span></p>
+<p><span style="font-size: 14pt;">Controlas la velocidad</span></p>
+<p><span style="font-size: 14pt;">de rotación continua.</span></p>
+<p><span style="font-size: 14pt;">3. Stop servo:</span></p>
+<p><span style="font-size: 14pt;">Detienes el motor servo</span></p>
+<p><span style="font-size: 14pt;"> e impide que el motor gire.</span></p>
+<p><span style="font-size: 14pt;">4. Set servo stop on neutral:</span></p>
+<p><span style="font-size: 14pt;"> Limitas la rotación del servo</span></p>
+<p><span style="font-size: 14pt;"> cuando el servo llegue a 90 grados.</span></p>
+<p><span style="font-size: 14pt;">5. Set servo range:</span></p>
+<p><span style="font-size: 14pt;"> Indicas el rango de rotación del servo.</span></p>
+<p><span style="font-size: 14pt;"> El rango de rotación es</span></p>
+<p><span style="font-size: 14pt;"> el rango del valor mínimo al máximo</span></p>
+<p><span style="font-size: 14pt;"> expresado en grados.</span></p>
+<p><span style="font-size: 14pt;">6. Set servo pulse to:</span></p>
+<p><span style="font-size: 14pt;"> Usas distintos tipos de motores</span></p>
+<p><span style="font-size: 14pt;"> y con anchos de pulsos diferentes.</span></p>
+<h2><span style="font-size: 14pt;">Vídeo</span></h2>
+<p><span style="font-size: 14pt;">El vídeo explica la conexión</span></p>
+<p><span style="font-size: 14pt;">de un servomotor a la micro:bit</span></p>
+<p><span style="font-size: 14pt;">También explica la programación</span></p>
+<p><span style="font-size: 14pt;">de un servomotor.</span></p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/U0VZLAjqzPw" allowfullscreen="allowfullscreen" width="560" height="315"></iframe><br><br></p>
+</div><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="conexin_electrnica.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejercicio_1.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
